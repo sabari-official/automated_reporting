@@ -1,14 +1,17 @@
-# AutoReport — Automated PDF Report Generator
+# Automated PDF Report Generator
 
 ---
 
-## **INTERN CREDENTIALS**
-
 **Company**     : CODETECH IT SOLUTIONS
+
 **Name**        : SABARIVASAN E
+
 **Intern ID**   : CTIS3748
+
 **Domain**      : PYTHON PROGRAMMING
+
 **Duration**    : 4 WEEKS
+
 **Mentor**      : NEELA SANTHOSH
 
 ---
