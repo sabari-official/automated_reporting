@@ -116,3 +116,13 @@ Task-2/
 - **Professional Design**: Publication-quality PDF output
 - **Data Resilience**: Multi-encoding support, error handling
 - **Intelligent Insights**: Automated pattern detection
+
+---
+
+## **Output**
+
+[report_flowers.pdf](https://github.com/user-attachments/files/25374216/report_flowers.pdf)
+
+[report_professional_resumes_dataset.pdf](https://github.com/user-attachments/files/25374217/report_professional_resumes_dataset.pdf)
+
+---
