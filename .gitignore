@@ -1,0 +1,132 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+virtualenv/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.settings/
+.project
+.pydevproject
+
+# Output and generated files
+*.log
+*.csv
+*.json
+*.xlsx
+*.pdf
+output/
+results/
+reports/
+temp/
+tmp/
+
+# Data files
+data/
+*.data
+*.pkl
+*.pickle
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+test-results/
+*.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS specific
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+desktop.ini
+
+# Node (if applicable)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build outputs
+*.o
+*.a
+*.so
+*.dylib
+dist/
+build/
+
+# Package manager files
+.pip-cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE cache
+.cache/
+.venv/
+.tenv/
