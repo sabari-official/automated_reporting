@@ -1,10 +1,3 @@
-"""
-main.py — Task 2: Automated Report Generation
-Run:  python main.py                     (interactive — prompts for file path)
-      python main.py path/to/file.csv
-      python main.py data.xlsx --out my_report.pdf
-"""
-
 import sys
 import os
 import argparse

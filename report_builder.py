@@ -1,16 +1,3 @@
-"""
-report_builder.py — Build a professional multi-page PDF report using ReportLab.
-
-Layout:
-  Page 1  — Cover page
-  Page 2  — Executive Summary + Key Insights
-  Page 3+ — Numeric Analysis (stats table + histograms)
-  Next    — Categorical Analysis (bar / pie charts)
-  Next    — Correlation Analysis (heatmap + scatter)
-  Next    — Missing Data / Data Quality
-  Last    — Appendix: full column list
-"""
-
 import io
 import os
 import gc
@@ -612,10 +599,7 @@ def _appendix_page(story, styles, analysis):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_report(analysis: dict, charts: dict, output_path: str) -> str:
-    """
-    Assemble the full PDF and write to output_path.
-    Returns output_path.
-    """
+  
     # Convert to absolute path
     output_path = os.path.abspath(output_path)
     

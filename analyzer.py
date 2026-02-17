@@ -1,9 +1,3 @@
-"""
-analyzer.py — Deep statistical analysis of a DataFrame or text blob.
-
-Returns a rich analysis dict consumed by report_builder.py.
-"""
-
 import re
 import math
 import warnings
@@ -19,10 +13,7 @@ warnings.filterwarnings("ignore")
 # ─────────────────────────────────────────────────────────────────────────────
 
 def analyze(file_info: dict) -> dict:
-    """
-    Given the unified file_info dict from file_reader.read_file(),
-    produce a comprehensive analysis dict.
-    """
+  
     result = {
         "file":      file_info,
         "generated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

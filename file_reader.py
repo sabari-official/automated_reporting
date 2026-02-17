@@ -1,29 +1,10 @@
-"""
-file_reader.py — Detect file type and load it into a unified structure.
-
-Supported formats:
-  CSV  · Excel (.xlsx / .xls)  · JSON  · TXT  · PDF  · TSV
-"""
-
 import os, json, re
 import pandas as pd
 
 # ─────────────────────────────────────────────────────────────────────────────
 
 def read_file(path: str) -> dict:
-    """
-    Load any supported file and return a unified dict:
-    {
-      "type":      str          # "csv" | "excel" | "json" | "txt" | "pdf" | "tsv"
-      "filename":  str
-      "filesize":  str          # human-readable
-      "df":        pd.DataFrame | None
-      "text":      str          # raw text (for TXT / PDF)
-      "raw":       any          # original parsed object
-      "sheets":    list[str]    # Excel sheet names
-      "error":     str | None
-    }
-    """
+
     result = {
         "type": None, "filename": os.path.basename(path),
         "filesize": _human_size(path),
