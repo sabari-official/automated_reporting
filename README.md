@@ -126,3 +126,12 @@ Task-2/
 [report_professional_resumes_dataset.pdf](https://github.com/user-attachments/files/25374217/report_professional_resumes_dataset.pdf)
 
 ---
+
+## **Output**
+
+https://github.com/user-attachments/assets/cebfd1e0-bfa8-47e7-98dd-6a7d0340dda7
+
+---
+
+
+
